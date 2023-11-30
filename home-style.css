@@ -1,0 +1,42 @@
+/* Styles go here */
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: lightgrey;
+  font-family: Verdana, sans-serif;
+}
+
+h2,
+h3 
+h4{
+  margin: 0 0 -.7em 0;
+}
+  
+.column-layout {
+  background-color: white;
+  max-width: 800px;
+  margin: 40px auto 0 auto;
+  padding: 20px 40px;
+  line-height: 1.65;
+  display: flex;
+}
+
+.main-column {
+  flex: 3;
+  order: 2;
+}
+.main-column-2 {
+  flex: 3;
+  order: 4;
+}
+
+.sidebar-one {
+  flex: 1;
+  order: 1;
+}
+
+.sidebar-two {
+  flex: 1;
+  order: 3;
+}
