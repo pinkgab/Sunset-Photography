@@ -22,21 +22,21 @@ h4{
   display: flex;
 }
 
-.main-column {
+.home {
   flex: 3;
   order: 2;
 }
-.main-column-2 {
+.menu {
   flex: 3;
-  order: 4;
-}
-
-.sidebar-one {
-  flex: 1;
   order: 1;
 }
 
-.sidebar-two {
-  flex: 1;
+.pas {
+  flex: 3;
   order: 3;
+}
+
+.contact-us {
+  flex: 3;
+  order: 2;
 }
