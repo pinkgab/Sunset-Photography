@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: lightgrey;
+  background-color: white;
   font-family: Verdana, sans-serif;
 }
 a:link, a:visited {
@@ -54,23 +54,15 @@ h2 {
   
 }
 
-.column-layout2 {
-  background-color: white;
-  max-width: 800px;
-  margin: 40px auto 0 auto;
-  padding: 20px 40px;
-  line-height: 1.65;
-  display: grid;
-}
-
 .main-column {
-  grid-column: 1,2;
-  grid-row-start: 1;
+  grid-column: 1 2 3;
+  grid-row-start: 2;
   
 }
 
 .sidebar {
-  grid-column: 3;
+  grid-column: 4;
+  grid-row-start: 2;
 }
 
 
