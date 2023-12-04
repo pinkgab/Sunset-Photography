@@ -50,3 +50,26 @@ h2 {
   order: 2;
 }
 
+
+
+
+.call-outs-container {
+  max-width: 600px;
+  margin: 40px auto 0 auto;
+  display: grid;
+  justify-content: space-between;
+}
+
+.call-out {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.call-out:nth-child(1) {  
+  grid-column: 1;
+  background-color: coral;
+}
+.call-out:nth-child(2) {
+  grid-column: 2;
+  background-color: indianred;
+}
