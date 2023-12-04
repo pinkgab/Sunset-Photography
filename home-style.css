@@ -28,28 +28,50 @@ h2 {
   margin: 40px auto 0 auto;
   padding: 20px 40px;
   line-height: 1.65;
-  display: flex;
+  display: grid;
 }
 
 .home {
-  flex: 3;
-  order: 2;
+ grid-column: 2;
+  grid-row-start: 1;
+  
 }
 .menu {
-  flex: 3;
-  order: 1;
+ grid-column: 1;
+  grid-row-start: 1;
+  
 }
 
 .pas {
-  flex: 3;
-  order: 3;
+ grid-column: 3;
+  grid-row-start: 1;
+  
 }
 
 .contact-us {
-  flex: 3;
-  order: 2;
+ grid-column: 4;
+  grid-row-start: 1;
+  
 }
 
+.column-layout2 {
+  background-color: white;
+  max-width: 800px;
+  margin: 40px auto 0 auto;
+  padding: 20px 40px;
+  line-height: 1.65;
+  display: grid;
+}
+
+.main-column {
+  grid-column: 1,2;
+  grid-row-start: 1;
+  
+}
+
+.sidebar {
+  grid-column: 3;
+}
 
 
 
