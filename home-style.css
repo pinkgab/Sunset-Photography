@@ -13,11 +13,11 @@ a:link, a:visited {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  transition-property: background-color;
+  transition-duration: 1s;
 }
 a:hover {
   background-color: #9370db;
-  transition-property: background-color;
-  transition-duration: 1s;
 }
 h2
 h4 {
@@ -68,7 +68,7 @@ h4 {
 }
 
 .logo {
-  width: 50%;
+  width: 25%;
   height: auto;
   display: block;
   margin-left: auto;
