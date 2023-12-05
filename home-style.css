@@ -17,8 +17,8 @@ a:link, a:visited {
 a:hover {
   background-color: #9370db;
 }
-h1
-h2 {
+h2
+h4 {
   margin: 0 0 -.7em 0;
 }
   
@@ -26,7 +26,7 @@ h2 {
   background-color: white;
   max-width: 800px;
   margin: 40px auto 0 auto;
-  padding: 20px 40px;
+  padding: 20px 20px;
   line-height: 1.65;
   display: grid;
 }
@@ -55,14 +55,14 @@ h2 {
 }
 
 .main-column {
-  grid-column: 1 2 3;
-  grid-row-start: 2;
+  column-span: 3;
+  grid-row-start: 3;
   
 }
 
 .sidebar {
   grid-column: 4;
-  grid-row-start: 2;
+  grid-row-start: 3;
 }
 
 
