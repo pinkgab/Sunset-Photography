@@ -16,6 +16,8 @@ a:link, a:visited {
 }
 a:hover {
   background-color: #9370db;
+  transition-property: background-color;
+  transition-duration: 1s;
 }
 h2
 h4 {
@@ -65,7 +67,13 @@ h4 {
   grid-row-start: 3;
 }
 
-
+.logo {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: 0px;
+}
 
 .call-outs-container {
   max-width: 600px;
