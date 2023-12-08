@@ -1,4 +1,4 @@
-/* Styles go here */
+/* home */
 * {
   box-sizing: border-box;
 }
@@ -95,3 +95,5 @@ h4 {
   grid-column: 2;
   background-color: indianred;
 }
+
+/* contact-us */
