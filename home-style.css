@@ -96,12 +96,7 @@ h2 h4 {
 
 /* contact-us */
 
-.cu {
-  background-color: lightgrey;
-}
-.white {
-  background-color: white;
-}
+
 .main-column-cu {
   grid-column-start: 1;
   grid-row-start: 2;
@@ -110,4 +105,5 @@ h2 h4 {
 .sidebar-cu {
   grid-column-start: 3;
   grid-row-start: 2;
+  
 }
