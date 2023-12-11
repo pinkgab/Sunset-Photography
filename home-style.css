@@ -95,13 +95,19 @@ h2 h4 {
 }
 
 /* contact-us */
+
+.cu {
+  background-color: lightgrey;
+}
+.white {
+  background-color: white;
+}
 .main-column-cu {
   grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row: 2;
+  grid-row-start: 2;
 }
 
 .sidebar-cu {
   grid-column-start: 3;
-  grid-row: 2;
+  grid-row-start: 2;
 }
