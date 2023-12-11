@@ -99,22 +99,16 @@ h4 {
 }
 
 /* contact-us */
-.column-layout-cu {
-  background-color: white;
-  max-width: 800px;
-  margin: 40px auto 0 auto;
-  padding: 20px 20px;
-  line-height: 1.65;
-  display: grid;
-}
+
+
 .main-column-cu {
   grid-column-start: 1;
   grid-column-end: 3;
-  grid-row-start: 3;
+  grid-row-start: 1;
   
 }
 
 .sidebar-cu {
   grid-column: 3;
-  grid-row-start: 3;
+  grid-row-start: 1;
 }
