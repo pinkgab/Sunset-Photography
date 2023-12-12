@@ -25,7 +25,7 @@ h2 h4 {
 }
 
 .column-layout {
-  background-color: white;
+  background-color: lightgrey;
   max-width: 800px;
   margin: 40px auto 0 auto;
   padding: 20px 20px;
@@ -100,10 +100,12 @@ h2 h4 {
 .main-column-cu {
   grid-column-start: 1;
   grid-row-start: 2;
+  background-color: white;
 }
 
 .sidebar-cu {
   grid-column-start: 3;
   grid-row-start: 2;
+  background-color: white;
   
 }
