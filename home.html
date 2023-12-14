@@ -40,7 +40,7 @@
       </div>
     </div>
 
-    <div class="call-outs-container">
+    <div id="specialoffers" class="call-outs-container">
       <div class="call-out">
         <h4>Standard Package</h4>
         <p>
@@ -58,10 +58,24 @@
           The Premium Package consits of 2+ hour photoshoot, multiple locations,
           3 outfit changes, and unlimited props. The Premuim Package is
           $300.00*.
+          
           <br />
           <a href=""> <h4>Learn More</h4> </a>
-        </p>
+        
       </div>
     </div>
+
+    <div style="text-align: center">
+      <button id="hidebutton" onclick="hideAds()">Hide Offers</button>
+    </div>
+
+    <script>
+      function hideAds() {
+        var x= document.getElementById("specialoffers";)
+        var y= document.getElementById("hidebutton";)
+        x.style.display = "none";
+        y.style.display = "none";
+      }
+    </script>
   </body>
 </html>
